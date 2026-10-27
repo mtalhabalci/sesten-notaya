@@ -1,0 +1,12 @@
+# This repository is public: no audio, data, weights, archives or run outputs
+*.flac
+*.wav
+*.mp3
+*.m4a
+*.mp4
+*.npz
+*.pt
+*.tar
+*.zip
+__pycache__/
+.ipynb_checkpoints/
