@@ -7,6 +7,7 @@ zamanı olarak A100 seçilmelidir.
 
 | defter | ne yapar | Colab |
 |---|---|---|
+| `colab/klarnet_ddsp.ipynb` | Klarnet ses modeli (DDSP) pilotu: tını modeli eğitir, eğitimde görülmemiş klipleri modelle yeniden çalar, gerçek ile model için A/B kör dinleme klasörü yazar | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/klarnet_ddsp.ipynb) |
 | `colab/tur6.ipynb` | 6. tur: 5. turun ağırlıklarından başlar, 5. turun tarifiyle 20.000 adım eğitir. Değişen yalnız veri: gerçek kayıtlar iki katından fazla büyüdü, ney, ud ve tanbur kayıtları da eklendi. Sonunda 5. ve 6. tur aynı sınavlarda yan yana ölçülür | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/tur6.ipynb) |
 | `colab/tur5.ipynb` | 5. tur: 4. turun ağırlıklarından başlar, iki kat büyüyen gerçek kayıt verisiyle 20.000 adım eğitir. Model iki türlü nota yazmayı öğrenir: kitaptaki gibi sade nota ve çalındığı gibi süslemeli nota. Sonunda 4. ve 5. tur aynı sınavlarda yan yana ölçülür, süslemeli notalar ayrıca yazılır | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/tur5.ipynb) |
 | `colab/tur4.ipynb` | 4. tur: 3. turun ağırlıklarından başlar, büyüyen gerçek kayıt verisiyle 15.000 adım eğitir. Sonunda 3. ve 4. tur aynı sınavlarda yan yana ölçülür | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/tur4.ipynb) |
