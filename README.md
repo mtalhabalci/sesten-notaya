@@ -7,6 +7,7 @@ zamanı olarak A100 seçilmelidir.
 
 | defter | ne yapar | Colab |
 |---|---|---|
+| `colab/icra_v1.ipynb` | Nota → icra modeli v1: yazılı notadan icrayı (zamanlama, vuruş gücü, perde sapması, titreşim, glissando, süsleme) öğrenen modeli eğitir, değerlendirir ve ölçüt pasajları için modelin çaldığı E dosyalarını yazar | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/icra_v1.ipynb) |
 | `colab/tur8.ipynb` | 8. tur: 7. turun ağırlıklarından başlar, 7. turun tarifiyle 20.000 adım eğitir. Gerçek kayıtlar büyüdü (şarkı söylenen kayıtların sesi ayrılmış saz kısmı, şarkıcı ile tek saz kayıtları); sentetiğe solo klarnet ve süslemeli kanun eklendi. Her sınav ham ve temizlenmiş olarak, dürüst sınav ayrıca güvenilir kayıtlarla puanlanır. Sonunda 7. ve 8. tur aynı sınavlarda yan yana ölçülür | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/tur8.ipynb) |
 | `colab/tur7.ipynb` | 7. tur: 6. turun ağırlıklarından başlar, 6. turun tarifiyle eğitir. Gerçek kayıtlara sazla çalınan şarkı, türkü ve ilahiler eklendi. Sonunda 6. ve 7. tur aynı sınavlarda yan yana ölçülür | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/tur7.ipynb) |
 | `colab/klarnet_ddsp.ipynb` | Klarnet ses modeli (DDSP) pilotu: tını modeli eğitir, eğitimde görülmemiş klipleri modelle yeniden çalar, gerçek ile model için A/B kör dinleme klasörü yazar | [aç](https://colab.research.google.com/github/mtalhabalci/sesten-notaya/blob/main/colab/klarnet_ddsp.ipynb) |
